@@ -22,21 +22,30 @@ const Contact = () => {
     setStatus({ type: '', message: '' })
 
     try {
-      // Simulated API call - replace with actual endpoint
-      // const response = await fetch('http://localhost:8000/api/contact.php', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData)
-      // })
-
-      // Simulate success
-      await new Promise(resolve => setTimeout(resolve, 1000))
-      
-      setStatus({
-        type: 'success',
-        message: 'MESSAGE SENT SUCCESSFULLY! I\'LL GET BACK TO YOU SOON.'
+      // Using Web3Forms - Get your free access key at https://web3forms.com/
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          access_key: '0e299340-316c-429a-b5c5-1f144194c701', // Replace with your Web3Forms access key
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: `Portfolio Contact: ${formData.name}`,
+        })
       })
-      setFormData({ name: '', email: '', message: '' })
+
+      const result = await response.json()
+      
+      if (result.success) {
+        setStatus({
+          type: 'success',
+          message: 'MESSAGE SENT SUCCESSFULLY! I\'LL GET BACK TO YOU SOON.'
+        })
+        setFormData({ name: '', email: '', message: '' })
+      } else {
+        throw new Error('Failed to send')
+      }
     } catch (error) {
       setStatus({
         type: 'error',
