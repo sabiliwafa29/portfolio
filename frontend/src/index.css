@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+@import "tailwindcss";
+
+:root {
+  --color-primary: #FFFFFF;
+  --color-secondary: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'VT323', monospace;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+
+.font-retro {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.font-pixel {
+  font-family: 'VT323', monospace;
+}
