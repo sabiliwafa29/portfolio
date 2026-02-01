@@ -20,7 +20,7 @@ const Projects = () => {
         title: "URL Shortener Web App",
         description: "A production-ready URL shortener backend API built with Node.js, Express, PostgreSQL, and Redis that features JWT authentication, click analytics, QR code generation, and rate limiting.",
         technologies: ["JavaScript", "Dockerfile", "PostgreSQL"],
-        link: "https://github.com/sabiliwafa29/url-shortener"
+        link: "https://github.com/sabiliwafa29/url-shortner"
       },
       {
         id: 3,
