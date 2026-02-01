@@ -5,15 +5,13 @@ const Projects = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Simulated API call - replace with actual API endpoint
-    // fetch('http://localhost:8000/api/projects.php')
     const mockProjects = [
       {
         id: 1,
         title: "Paradise Of Indonesia",
         description: "ParadiseOfIndonesia is a Laravel web application project, presumably focused on showcasing Indonesian tourism destinations or cultural content.",
         technologies: ["Blade", "PHP", "Laravel", "PostgreSQL"],
-        link: "https://github.com/sabiliwafa29/ParadiseOfIndonesia"
+        link: "https://paradiseofindonesia.com"
       },
       {
         id: 2,
@@ -24,10 +22,17 @@ const Projects = () => {
       },
       {
         id: 3,
-        title: "Pixel Art Generator",
-        description: "Convert images to pixel art with customizable resolution and color palettes.",
-        technologies: ["Python", "PIL", "Flask"],
-        link: "https://github.com/example/pixel-art-generator"
+        title: "Distributed E-Commerce Order System",
+        description: "A scalable e-commerce backend API built with FastAPI that handles product orders with race condition prevention using pessimistic locking, Redis caching, and Celery-based background task processing.",
+        technologies: ["Python", "FastAPI", "Redis", "PostgreSQL", "Celery", "Dockerfile", "Flower"],
+        link: "https://github.com/sabiliwafa29/distributed"
+      },
+      {
+        id: 4,
+        title: "Volunteer Event Management API",
+        description: "A REST API for volunteer event management system with authentication, allowing users to create, browse, join, and leave volunteer events.",
+        technologies: ["Laravel", "MySQL", "PHP"],
+        link: "https://github.com/sabiliwafa29/volunteer-event-api"
       }
     ]
 
