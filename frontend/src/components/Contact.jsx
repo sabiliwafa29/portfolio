@@ -48,10 +48,10 @@ const Contact = () => {
   }
 
   const socialLinks = [
-    { name: 'GITHUB', url: 'https://github.com/yourusername', icon: '⌘' },
-    { name: 'LINKEDIN', url: 'https://linkedin.com/in/yourusername', icon: '◈' },
-    { name: 'TWITTER', url: 'https://twitter.com/yourusername', icon: '✦' },
-    { name: 'EMAIL', url: 'mailto:your.email@example.com', icon: '✉' }
+    { name: 'GITHUB', url: 'https://github.com/sabiliwafa29', icon: '⌘' },
+    { name: 'LINKEDIN', url: 'https://linkedin.com/in/rosyad-wafa', icon: '◈' },
+    { name: 'TWITTER', url: 'https://twitter.com/rosyadwafa02', icon: '✦' },
+    { name: 'EMAIL', url: 'mailto:rosyadwafa02@gmail.com', icon: '✉' }
   ]
 
   return (
@@ -156,8 +156,8 @@ const Contact = () => {
             <div className="border-4 border-black p-6 bg-black text-white">
               <h3 className="font-retro text-lg mb-4">QUICK INFO</h3>
               <div className="font-pixel text-lg space-y-2">
-                <p>📍 Location: Your City</p>
-                <p>💼 Status: Available for work</p>
+                <p>📍 Location: Surabaya, Indonesia</p>
+                <p>💼 Status: Available for connect</p>
                 <p>⏰ Response: Within 24 hours</p>
               </div>
             </div>

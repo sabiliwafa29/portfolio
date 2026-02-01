@@ -10,17 +10,17 @@ const Projects = () => {
     const mockProjects = [
       {
         id: 1,
-        title: "Retro Game Engine",
-        description: "A pixel-perfect game engine built with modern technologies but retro aesthetics.",
-        technologies: ["JavaScript", "Canvas", "WebGL"],
-        link: "https://github.com/example/retro-game-engine"
+        title: "Paradise Of Indonesia",
+        description: "ParadiseOfIndonesia is a Laravel web application project, presumably focused on showcasing Indonesian tourism destinations or cultural content.",
+        technologies: ["Blade", "PHP", "Laravel", "PostgreSQL"],
+        link: "https://github.com/sabiliwafa29/ParadiseOfIndonesia"
       },
       {
         id: 2,
-        title: "Terminal Portfolio",
-        description: "An interactive terminal-style portfolio website with command-line navigation.",
-        technologies: ["React", "Node.js", "CSS"],
-        link: "https://github.com/example/terminal-portfolio"
+        title: "URL Shortener Web App",
+        description: "A production-ready URL shortener backend API built with Node.js, Express, PostgreSQL, and Redis that features JWT authentication, click analytics, QR code generation, and rate limiting.",
+        technologies: ["JavaScript", "Dockerfile", "PostgreSQL"],
+        link: "https://github.com/sabiliwafa29/url-shortener"
       },
       {
         id: 3,

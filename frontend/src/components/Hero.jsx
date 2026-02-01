@@ -38,9 +38,9 @@ const Hero = () => {
           
           {/* Description */}
           <p className="font-pixel text-2xl md:text-3xl mb-8 leading-relaxed">
-            I'm a developer who loves creating<br />
-            beautiful and functional websites<br />
-            with a retro twist.
+            I'm a software who loves creating<br />
+            functional and meaningful applications<br />
+            with your taste.
           </p>
           
           {/* CTA Buttons */}

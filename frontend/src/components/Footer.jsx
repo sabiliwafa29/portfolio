@@ -28,22 +28,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom ASCII Art */}
-        <div className="text-center font-pixel text-xs mt-8 opacity-30">
-          <pre className="inline-block">
-{`
-    ___________
-   |  ___  ___ |
-   | |   ||   ||
-   | |___||___||
-   |  ___ ___  |
-   | |   |   | |
-   | |___|___| |
-   |___________|
-   MADE WITH ♥
-`}
-          </pre>
-        </div>
       </div>
     </footer>
   )

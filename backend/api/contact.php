@@ -13,10 +13,10 @@ switch ($method) {
     case 'GET':
         // Return contact information
         $contact = [
-            "email" => "your.email@example.com",
-            "github" => "https://github.com/yourusername",
-            "linkedin" => "https://linkedin.com/in/yourusername",
-            "twitter" => "https://twitter.com/yourusername"
+            "email" => "rosyadwafa02@gmail.com",
+            "github" => "https://github.com/sabiliwafa29",
+            "linkedin" => "https://linkedin.com/in/rosyad-wafa",
+            "twitter" => "https://twitter.com/rosyadwafa02"
         ];
         echo json_encode($contact);
         break;
